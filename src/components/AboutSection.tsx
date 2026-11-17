@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import avatarImage from '../assets/images/shayyan_portfolio_avatar_1793957633625.jpg';
 import { MapPin, GraduationCap, School, Sparkles, Terminal, Briefcase } from 'lucide-react';
 import { STATS, SUMMARY_TEXT, EXPERIENCE_DATA, INITIAL_CONTACT_INFO } from '../data/portfolioData';
 
@@ -33,7 +34,7 @@ export default function AboutSection() {
 
               <div className="relative rounded-2xl overflow-hidden aspect-square bg-neutral-950">
                 <img
-                  src="/src/assets/images/shayyan_portfolio_avatar_1793957633625.jpg"
+                  src={avatarImage}
                   alt="Shayyan Najath C N - AI & Data Science Student"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
