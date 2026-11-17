@@ -1,4 +1,7 @@
 import { Project, SkillItem, EducationItem, CertificationItem, ContactInfo, ExperienceItem } from '../types/portfolio';
+import attritionImage from '../assets/images/project_attrition_analytics_1793957633573.jpg';
+import faceAttendanceImage from '../assets/images/project_face_detection_attendance_1793957634448.jpg';
+import studentManagementImage from '../assets/images/project_student_management_1793957633639.jpg';
 
 export const RESUME_PDF_PATH = '/assets/aistudio/Shayyan_Najath_C_N_Resume_e1f39326.pdf';
 
@@ -80,7 +83,7 @@ export const INITIAL_PROJECTS: Project[] = [
     technologies: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Streamlit', 'Plotly'],
     githubUrl: 'https://github.com/shayyannajath/employee-attrition-prediction',
     demoUrl: '',
-    image: '/src/assets/images/project_attrition_analytics_1793957633573.jpg',
+    image: attritionImage,
     highlights: [
       'Analyzed IBM HR Analytics data to identify employee attrition patterns.',
       'Built a machine learning model to predict employee attrition.',
@@ -109,7 +112,7 @@ export const INITIAL_PROJECTS: Project[] = [
     technologies: ['Python', 'MySQL', 'SQL'],
     githubUrl: 'https://github.com/shayyannajath/student-management-system',
     demoUrl: '',
-    image: '/src/assets/images/project_student_management_1793957633639.jpg',
+    image: studentManagementImage,
     highlights: [
       'Developed a menu-driven application to add, view, and search student records.',
       'Used Python for application logic and MySQL for database operations.',
@@ -138,7 +141,7 @@ export const INITIAL_PROJECTS: Project[] = [
     technologies: ['Python', 'OpenCV', 'NumPy', 'Haar Cascade', 'CSV'],
     githubUrl: 'https://github.com/shayyannajath/face-attendance-system',
     demoUrl: '',
-    image: '/src/assets/images/project_face_detection_attendance_1793957634448.jpg',
+    image: faceAttendanceImage,
     highlights: [
       'Built a webcam-based face detection and recognition application.',
       'Used a trained recognition model to identify registered individuals.',
